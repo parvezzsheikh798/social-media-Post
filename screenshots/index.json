@@ -1,5 +1,5 @@
 {
-  "about": "Todole app screenshots (iPhone, 1179x2406, status bar removed; a private folder/task name was replaced with 'Client work'/'Client call' and the typo 'Emplyoee' fixed at the owner's request). Describe only what is visible here. 'hold': true = do not use until the owner confirms.",
+  "about": "Todole app screenshots. device 'phone' = iPhone, 1179x2406, status bar removed; device 'desktop' = web app, about 1880x910 (16 is 991x902). Private folder, task and project names were replaced with neutral ones and the typo 'Emplyoee' fixed at the owner's request. Describe only what is visible here. 'hold': true = do not use until the owner confirms.",
   "screenshots": [
     {
       "id": "01",
@@ -15,7 +15,8 @@
         "checklist",
         "attachments"
       ],
-      "hold": false
+      "hold": false,
+      "device": "phone"
     },
     {
       "id": "02",
@@ -29,7 +30,8 @@
         "priority",
         "add task or project"
       ],
-      "hold": false
+      "hold": false,
+      "device": "phone"
     },
     {
       "id": "03",
@@ -43,7 +45,8 @@
         "client management template",
         "meeting agenda template"
       ],
-      "hold": false
+      "hold": false,
+      "device": "phone"
     },
     {
       "id": "04",
@@ -57,7 +60,8 @@
         "archived and completed projects",
         "templates"
       ],
-      "hold": false
+      "hold": false,
+      "device": "phone"
     },
     {
       "id": "05",
@@ -74,7 +78,8 @@
         "projects",
         "favourite projects"
       ],
-      "hold": false
+      "hold": false,
+      "device": "phone"
     },
     {
       "id": "06",
@@ -87,7 +92,8 @@
         "team collaboration",
         "notifications"
       ],
-      "hold": false
+      "hold": false,
+      "device": "phone"
     },
     {
       "id": "07",
@@ -100,7 +106,8 @@
         "karma",
         "completed tasks history"
       ],
-      "hold": false
+      "hold": false,
+      "device": "phone"
     },
     {
       "id": "08",
@@ -116,7 +123,8 @@
         "export data as CSV or JSON"
       ],
       "hold": false,
-      "note": "Never mention prices or what Pro includes."
+      "note": "Never mention prices or what Pro includes.",
+      "device": "phone"
     },
     {
       "id": "09",
@@ -128,7 +136,8 @@
         "focus time tracking",
         "focus records per project"
       ],
-      "hold": false
+      "hold": false,
+      "device": "phone"
     },
     {
       "id": "10",
@@ -141,7 +150,8 @@
         "focus on a project",
         "project progress"
       ],
-      "hold": false
+      "hold": false,
+      "device": "phone"
     },
     {
       "id": "11",
@@ -153,7 +163,8 @@
         "timeline",
         "all-day tasks"
       ],
-      "hold": false
+      "hold": false,
+      "device": "phone"
     },
     {
       "id": "12",
@@ -164,7 +175,8 @@
         "calendar month view",
         "tasks per day"
       ],
-      "hold": false
+      "hold": false,
+      "device": "phone"
     },
     {
       "id": "13",
@@ -174,7 +186,8 @@
       "features": [
         "calendar week view"
       ],
-      "hold": false
+      "hold": false,
+      "device": "phone"
     },
     {
       "id": "14",
@@ -187,7 +200,8 @@
         "project folders",
         "task previews on project cards"
       ],
-      "hold": false
+      "hold": false,
+      "device": "phone"
     },
     {
       "id": "15",
@@ -199,6 +213,92 @@
         "task list",
         "dated tasks",
         "attachments"
+      ],
+      "hold": false,
+      "device": "phone"
+    },
+    {
+      "id": "16",
+      "file": "screenshots/16-web-command-palette.png",
+      "device": "desktop",
+      "screen": "Web app, command palette",
+      "shows": "A command palette (Ctrl K) over the Profile settings page: a search box 'Search tasks, projects and labels, or type a command'; Go to: Today, Inbox, Upcoming, Calendar, Focus, All projects, Settings; Commands: Add a task (shortcut Q), Start a focus session, Switch to the dark theme; keyboard hints to move, open and close.",
+      "features": [
+        "web app",
+        "command palette",
+        "keyboard shortcuts",
+        "search tasks, projects and labels",
+        "quick add a task",
+        "start a focus session",
+        "dark theme"
+      ],
+      "hold": false
+    },
+    {
+      "id": "17",
+      "file": "screenshots/17-web-focus-statistics.png",
+      "device": "desktop",
+      "screen": "Web app, focus statistics",
+      "shows": "Focus statistics with Day / Week / Month / Custom and 'Export as CSV': today's sessions and focus, total sessions and focus, a details chart, a weekly trends chart with daily average, today's timeline (06:00-22:00), and recent karma ('Completed a task' +2).",
+      "features": [
+        "web app",
+        "focus statistics",
+        "weekly trends",
+        "daily timeline",
+        "export focus data as CSV",
+        "karma for completed tasks"
+      ],
+      "hold": false
+    },
+    {
+      "id": "18",
+      "file": "screenshots/18-web-focus-timer.png",
+      "device": "desktop",
+      "screen": "Web app, focus timer",
+      "shows": "Focus page with Pomodoro / Stopwatch, a 25:00 '25-minute Pomo' timer with Start, 'Then a 5-minute break · a long break after 4', 'Focus on a task or project', and Today stats: sessions, focus time, time saved ('Focus on a project to compare with your esti...'), this week, records with 'Add record'.",
+      "features": [
+        "web app",
+        "pomodoro timer with breaks",
+        "stopwatch",
+        "focus on a task or project",
+        "time saved vs estimate (per the screen)",
+        "focus records"
+      ],
+      "hold": false
+    },
+    {
+      "id": "19",
+      "file": "screenshots/19-web-calendar-week.png",
+      "device": "desktop",
+      "screen": "Web app, calendar week view",
+      "shows": "Week calendar (November 23-29) with Month / Week / Day views, an hourly grid and a current-time line, plus an 'Unscheduled · 16' panel: 'Drag a task onto a day or a time.' with tasks like Website SEO Audit, Keyword Research, Optimize Homepage, Publish First SEO Blog, Social Media Promotion, Community Engagement, Blog Section.",
+      "features": [
+        "web app",
+        "calendar week view",
+        "month, week and day views",
+        "unscheduled tasks panel",
+        "drag a task onto a day or time (per the screen)"
+      ],
+      "hold": false,
+      "note": "Some task names mention other companies' tools; never name those tools in captions."
+    },
+    {
+      "id": "20",
+      "file": "screenshots/20-web-project-board.png",
+      "device": "desktop",
+      "screen": "Web app, project board",
+      "shows": "Tasks sidebar (Inbox; projects Employee Management, Design, Next Featured, Website SEO, Todole Issues; Today, Upcoming, Filters & Labels; label 'Store image sizes'; Templates, Completed, Trash) and the 'Website SEO' project as a board with List / Board switch and Share: a 'No section' column with 9 tasks (Website SEO Audit, Keyword Research, Optimize Homepage, Publish First SEO Blog, Social Media Promotion, Community Engagement, Second Blog and Internal Links, Measure and Improve, SEO blog articles), a 'Hiring SEO Members' column, and 'Add column'.",
+      "features": [
+        "web app",
+        "board view",
+        "list view",
+        "sections as columns",
+        "share a project",
+        "labels",
+        "filters",
+        "templates",
+        "completed tasks",
+        "trash"
       ],
       "hold": false
     }
