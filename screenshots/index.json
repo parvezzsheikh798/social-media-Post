@@ -1,20 +1,206 @@
 {
-  "about": "Todole app screenshots (iPhone, 1179x2406, status bar removed) for screenshot posts. Describe only what is visible here. 'hold': true = do not use until the owner confirms.",
+  "about": "Todole app screenshots (iPhone, 1179x2406, status bar removed; a private folder/task name was replaced with 'Client work'/'Client call' and the typo 'Emplyoee' fixed at the owner's request). Describe only what is visible here. 'hold': true = do not use until the owner confirms.",
   "screenshots": [
-    {"id": "01", "file": "screenshots/01-task-detail.png", "screen": "Task detail", "shows": "A task opened from the Inbox ('Check list') with its date and time range (Sun, 1 Nov, 13:00-23:05) in red, notes with start and end time, a priority flag button, and buttons for labels, a checklist and attachments.", "features": ["task details", "due date and time range", "notes", "priority flag", "labels", "checklist", "attachments"], "hold": false},
-    {"id": "02", "file": "screenshots/02-quick-add-task.png", "screen": "Quick add", "shows": "The add sheet with a Task/Project switch, a new task 'Appointment', an 'Add notes...' field, the hint 'Try \"tomorrow 5pm p1 #project @label\"', and chips for Inbox, Today, Reminders and Priority. Keyboard open.", "features": ["quick add", "natural language dates and tags (per the hint)", "reminders", "priority", "add task or project"], "hold": false},
-    {"id": "03", "file": "screenshots/03-templates.png", "screen": "Templates", "shows": "A Templates page with search and categories Featured, Work, Personal, Education. Work: 'Client management' (board, 'Organize your work with clients from first call to...') and 'Meeting agenda' (list, 'Run a focused meeting and capture the follow-...'). Personal: 'Fitness plan' and 'Grocery list'.", "features": ["templates", "board view", "list view", "client management template", "meeting agenda template"], "hold": false},
-    {"id": "04", "file": "screenshots/04-dashboard-menu.png", "screen": "Dashboard options menu", "shows": "The Dashboard with an options menu open: Search, Select projects, New folder, List view, Sort, Completed projects, Archived projects, Manage folders, Templates, Open menu.", "features": ["project folders", "sort", "list view", "archived and completed projects", "templates"], "hold": false},
-    {"id": "05", "file": "screenshots/05-menu-lists-folders.png", "screen": "Menu", "shows": "Smart lists (Search, Inbox 19, Today 21, Upcoming, Filters & Labels), folders 'Todole' and 'Chickadee's', and projects 4/5: Client management (starred, 15), Project kickoff (6), Research project (12).", "features": ["smart lists", "inbox", "today", "upcoming", "filters and labels", "folders", "projects", "favourite projects"], "hold": true, "hold_reason": "Shows the folder name 'Chickadee's'; owner to confirm it can be public."},
-    {"id": "06", "file": "screenshots/06-notifications-sharing.png", "screen": "Notifications", "shows": "Notifications: 'Todole shared a task with you' (voice note, 16 Nov) and 'Todole shared a project with you' (Emplyoee Management, 16 Nov).", "features": ["sharing tasks", "sharing projects", "team collaboration", "notifications"], "hold": false, "note": "Project name has a typo ('Emplyoee'); crop or keep it small."},
-    {"id": "07", "file": "screenshots/07-productivity-goals.png", "screen": "Productivity", "shows": "Productivity page: 21 completed tasks, Daily / Weekly / Karma tabs, daily goal 0/5 tasks ('What's first on your list?', Edit goals), daily streak 0 days (longest 1 day), completed in the last 7 days chart.", "features": ["daily goal", "streaks", "karma", "completed tasks history"], "hold": false},
-    {"id": "08", "file": "screenshots/08-settings.png", "screen": "Settings", "shows": "Settings: Upgrade to Pro banner, Productivity 0/5 today, Appearance, Language (English), Notifications, Integrations, App lock ('Require Face ID / fingerprint to open Todole', on), Export my data (CSV, JSON).", "features": ["appearance", "language", "notifications", "integrations", "app lock with Face ID or fingerprint", "export data as CSV or JSON"], "hold": false, "note": "Never mention prices or what Pro includes."},
-    {"id": "09", "file": "screenshots/09-focus-stats.png", "screen": "Focus stats", "shows": "Focus Stats: today's sessions 0, today's focus 0m, total sessions 3, total focus 50m, focus records (No task 40m; Project kickoff 5m twice), details by Today / Week / Month / Custom.", "features": ["focus sessions", "focus time tracking", "focus records per project"], "hold": false},
-    {"id": "10", "file": "screenshots/10-focus-timer.png", "screen": "Focus timer", "shows": "A Pomo / Stopwatch focus timer at 5:00 with a Start button, selected project 'Project kickoff' (6 open tasks), and project overview 50% complete, 6 out of 12 tasks.", "features": ["pomodoro timer", "stopwatch", "focus on a project", "project progress"], "hold": false},
-    {"id": "11", "file": "screenshots/11-calendar-day.png", "screen": "Calendar, day view", "shows": "Day view for Tuesday 24 November 2026 with an hourly timeline, a current-time marker at 03:35, and an all-day task 'Home decor' (Today).", "features": ["calendar day view", "timeline", "all-day tasks"], "hold": false},
-    {"id": "12", "file": "screenshots/12-calendar-month.png", "screen": "Calendar, month view", "shows": "Monthly calendar for November 2026 with dots on days that have tasks, today (24) highlighted, and the day's task list below ('Home decor', Today).", "features": ["calendar month view", "tasks per day"], "hold": false},
-    {"id": "13", "file": "screenshots/13-calendar-week.png", "screen": "Calendar, week view", "shows": "Weekly calendar strip (23-29 November) with today highlighted and the day's task 'Home decor' below.", "features": ["calendar week view"], "hold": false},
-    {"id": "14", "file": "screenshots/14-dashboard-projects.png", "screen": "Dashboard, projects", "shows": "Dashboard ('Good morning, Saif', Tuesday 24 November) with My projects, folder chips (All 5, Todole, Chickadee's), and project cards: Client management (15 tasks, 5 sections), Project kickoff ('Scope, plan and launch a new piece of work', 6 tasks), Research project (12 tasks), Grocery list (12 tasks), Emplyoee Management (6 tasks).", "features": ["dashboard", "projects with sections", "project folders", "task previews on project cards"], "hold": true, "hold_reason": "Shows 'Chickadee's' and the typo 'Emplyoee'; owner to confirm."},
-    {"id": "15", "file": "screenshots/15-inbox-tasks.png", "screen": "Inbox", "shows": "Inbox list (Tasks / Projects switch) with tasks and dates: Check list (1 Nov, 13:00-23:05), Chickadee's (3 Nov), Chickadee's (4 Nov), voice note (16 Nov, with an image attached), Chickadee's (6, 7, 8 Nov).", "features": ["inbox", "task list", "dated tasks", "attachments"], "hold": true, "hold_reason": "Shows several tasks named 'Chickadee's'; owner to confirm."}
+    {
+      "id": "01",
+      "file": "screenshots/01-task-detail.png",
+      "screen": "Task detail",
+      "shows": "A task opened from the Inbox ('Check list') with its date and time range (Sun, 1 Nov, 13:00-23:05) in red, notes with start and end time, a priority flag button, and buttons for labels, a checklist and attachments. In the background list: a task 'Client call'.",
+      "features": [
+        "task details",
+        "due date and time range",
+        "notes",
+        "priority flag",
+        "labels",
+        "checklist",
+        "attachments"
+      ],
+      "hold": false
+    },
+    {
+      "id": "02",
+      "file": "screenshots/02-quick-add-task.png",
+      "screen": "Quick add",
+      "shows": "The add sheet with a Task/Project switch, a new task 'Appointment', an 'Add notes...' field, the hint 'Try \"tomorrow 5pm p1 #project @label\"', and chips for Inbox, Today, Reminders and Priority. Keyboard open.",
+      "features": [
+        "quick add",
+        "natural language dates and tags (per the hint)",
+        "reminders",
+        "priority",
+        "add task or project"
+      ],
+      "hold": false
+    },
+    {
+      "id": "03",
+      "file": "screenshots/03-templates.png",
+      "screen": "Templates",
+      "shows": "A Templates page with search and categories Featured, Work, Personal, Education. Work: 'Client management' (board, 'Organize your work with clients from first call to...') and 'Meeting agenda' (list, 'Run a focused meeting and capture the follow-...'). Personal: 'Fitness plan' and 'Grocery list'.",
+      "features": [
+        "templates",
+        "board view",
+        "list view",
+        "client management template",
+        "meeting agenda template"
+      ],
+      "hold": false
+    },
+    {
+      "id": "04",
+      "file": "screenshots/04-dashboard-menu.png",
+      "screen": "Dashboard options menu",
+      "shows": "The Dashboard with an options menu open: Search, Select projects, New folder, List view, Sort, Completed projects, Archived projects, Manage folders, Templates, Open menu.",
+      "features": [
+        "project folders",
+        "sort",
+        "list view",
+        "archived and completed projects",
+        "templates"
+      ],
+      "hold": false
+    },
+    {
+      "id": "05",
+      "file": "screenshots/05-menu-lists-folders.png",
+      "screen": "Menu",
+      "shows": "Smart lists (Search, Inbox 19, Today 21, Upcoming, Filters & Labels), folders 'Todole' and 'Client work', and projects 4/5: Client management (starred, 15), Project kickoff (6), Research project (12).",
+      "features": [
+        "smart lists",
+        "inbox",
+        "today",
+        "upcoming",
+        "filters and labels",
+        "folders",
+        "projects",
+        "favourite projects"
+      ],
+      "hold": false
+    },
+    {
+      "id": "06",
+      "file": "screenshots/06-notifications-sharing.png",
+      "screen": "Notifications",
+      "shows": "Notifications: 'Todole shared a task with you' (voice note, 16 Nov) and 'Todole shared a project with you' (Employee Management, 16 Nov).",
+      "features": [
+        "sharing tasks",
+        "sharing projects",
+        "team collaboration",
+        "notifications"
+      ],
+      "hold": false
+    },
+    {
+      "id": "07",
+      "file": "screenshots/07-productivity-goals.png",
+      "screen": "Productivity",
+      "shows": "Productivity page: 21 completed tasks, Daily / Weekly / Karma tabs, daily goal 0/5 tasks ('What's first on your list?', Edit goals), daily streak 0 days (longest 1 day), completed in the last 7 days chart.",
+      "features": [
+        "daily goal",
+        "streaks",
+        "karma",
+        "completed tasks history"
+      ],
+      "hold": false
+    },
+    {
+      "id": "08",
+      "file": "screenshots/08-settings.png",
+      "screen": "Settings",
+      "shows": "Settings: Upgrade to Pro banner, Productivity 0/5 today, Appearance, Language (English), Notifications, Integrations, App lock ('Require Face ID / fingerprint to open Todole', on), Export my data (CSV, JSON).",
+      "features": [
+        "appearance",
+        "language",
+        "notifications",
+        "integrations",
+        "app lock with Face ID or fingerprint",
+        "export data as CSV or JSON"
+      ],
+      "hold": false,
+      "note": "Never mention prices or what Pro includes."
+    },
+    {
+      "id": "09",
+      "file": "screenshots/09-focus-stats.png",
+      "screen": "Focus stats",
+      "shows": "Focus Stats: today's sessions 0, today's focus 0m, total sessions 3, total focus 50m, focus records (No task 40m; Project kickoff 5m twice), details by Today / Week / Month / Custom.",
+      "features": [
+        "focus sessions",
+        "focus time tracking",
+        "focus records per project"
+      ],
+      "hold": false
+    },
+    {
+      "id": "10",
+      "file": "screenshots/10-focus-timer.png",
+      "screen": "Focus timer",
+      "shows": "A Pomo / Stopwatch focus timer at 5:00 with a Start button, selected project 'Project kickoff' (6 open tasks), and project overview 50% complete, 6 out of 12 tasks.",
+      "features": [
+        "pomodoro timer",
+        "stopwatch",
+        "focus on a project",
+        "project progress"
+      ],
+      "hold": false
+    },
+    {
+      "id": "11",
+      "file": "screenshots/11-calendar-day.png",
+      "screen": "Calendar, day view",
+      "shows": "Day view for Tuesday 24 November 2026 with an hourly timeline, a current-time marker at 03:35, and an all-day task 'Home decor' (Today).",
+      "features": [
+        "calendar day view",
+        "timeline",
+        "all-day tasks"
+      ],
+      "hold": false
+    },
+    {
+      "id": "12",
+      "file": "screenshots/12-calendar-month.png",
+      "screen": "Calendar, month view",
+      "shows": "Monthly calendar for November 2026 with dots on days that have tasks, today (24) highlighted, and the day's task list below ('Home decor', Today).",
+      "features": [
+        "calendar month view",
+        "tasks per day"
+      ],
+      "hold": false
+    },
+    {
+      "id": "13",
+      "file": "screenshots/13-calendar-week.png",
+      "screen": "Calendar, week view",
+      "shows": "Weekly calendar strip (23-29 November) with today highlighted and the day's task 'Home decor' below.",
+      "features": [
+        "calendar week view"
+      ],
+      "hold": false
+    },
+    {
+      "id": "14",
+      "file": "screenshots/14-dashboard-projects.png",
+      "screen": "Dashboard, projects",
+      "shows": "Dashboard ('Good morning, Saif', Tuesday 24 November) with My projects, folder chips (All 5, Todole, Client work), and project cards: Client management (15 tasks, 5 sections), Project kickoff ('Scope, plan and launch a new piece of work', 6 tasks), Research project (12 tasks), Grocery list (12 tasks), Employee Management (6 tasks).",
+      "features": [
+        "dashboard",
+        "projects with sections",
+        "project folders",
+        "task previews on project cards"
+      ],
+      "hold": false
+    },
+    {
+      "id": "15",
+      "file": "screenshots/15-inbox-tasks.png",
+      "screen": "Inbox",
+      "shows": "Inbox list (Tasks / Projects switch) with tasks and dates: Check list (1 Nov, 13:00-23:05), Client call (3 Nov), Client call (4 Nov), voice note (16 Nov, with an image attached), Client call (6, 7, 8 Nov).",
+      "features": [
+        "inbox",
+        "task list",
+        "dated tasks",
+        "attachments"
+      ],
+      "hold": false
+    }
   ]
 }
